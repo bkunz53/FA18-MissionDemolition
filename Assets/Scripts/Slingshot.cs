@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Slingshot : MonoBehaviour {
-static private Slingshot S;
-[Header("Set in Inspector")]                                           // a
-    public GameObject      prefabProjectile;
-	public float                 velocityMult = 8f;
+public class Slingshot : MonoBehaviour
+{
+    static private Slingshot S;
+    [Header("Set in Inspector")]                                           // a
+    public GameObject prefabProjectile;
+	public float velocityMult = 8f;
 
     // fields set dynamically
     [Header("Set Dynamically")]                                            // a
@@ -25,7 +26,7 @@ static public Vector3 LAUNCH_POS {                       
 
     void Awake() {
 	S = this;
-        Transform launchPointTrans = transform.FindChild("LaunchPoint");
+        Transform launchPointTrans = transform.Find("LaunchPoint");
         launchPoint = launchPointTrans.gameObject;
         launchPoint.SetActive( false );
         launchPos = launchPointTrans.position;                              // c
