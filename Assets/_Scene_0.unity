@@ -454,34 +454,6 @@ MonoBehaviour:
   launchPos: {x: 0, y: 0, z: 0}
   projectile: {fileID: 0}
   aimingMode: 0
---- !u!1 &737611854
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 737611855}
-  m_Layer: 0
-  m_Name: View Both
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &737611855
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 737611854}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25, y: 25, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &920658838
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,7 +618,7 @@ RectTransform:
   - {fileID: 920658841}
   - {fileID: 2102530756}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -798,9 +770,9 @@ MonoBehaviour:
   uitButton: {fileID: 102718943}
   castlePos: {x: 50, y: -9.5, z: 0}
   castles:
-  - {fileID: 1338383863542900, guid: fbdcbe7f9721b4948b580bb2e6dffecc, type: 2}
   - {fileID: 1338383863542900, guid: 99d1fa8578d68a345a439f425b2bf603, type: 2}
   - {fileID: 1338383863542900, guid: 69f8a57c773b31c4981e79d6ca73f524, type: 2}
+  - {fileID: 1338383863542900, guid: fbdcbe7f9721b4948b580bb2e6dffecc, type: 2}
   - {fileID: 1338383863542900, guid: 52e0c021ccde629428aaa6597ff2539c, type: 2}
   level: 0
   levelMax: 0
